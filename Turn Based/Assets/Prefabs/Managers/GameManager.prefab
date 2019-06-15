@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1545284160423014}
+  m_IsPrefabAsset: 1
+--- !u!1 &1545284160423014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4752773362226362}
+  - component: {fileID: 114234186153162028}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4752773362226362
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545284160423014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114234186153162028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545284160423014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d911676d06dc994dbf6ebe93fdb78bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bluePlayer: {fileID: 0}
+  redPlayer: {fileID: 0}
+  tileTypes:
+  - tilePrefab: {fileID: 1605592111363058, guid: 5520b342b5a815a4baf18b270bfcb71c,
+      type: 2}
+    isWalkable: 1
+    movementCost: 1
+  - tilePrefab: {fileID: 1545483745120680, guid: 703dadcc86a94134f8a9055fb7a1285b,
+      type: 2}
+    isWalkable: 1
+    movementCost: 1
+  - tilePrefab: {fileID: 1989576055374428, guid: 83ac932b29bd0fb4d878b899efd96624,
+      type: 2}
+    isWalkable: 0
+    movementCost: 0
+  - tilePrefab: {fileID: 1405789037207322, guid: 017506f3398ec0f4baad05d73d0c4767,
+      type: 2}
+    isWalkable: 0
+    movementCost: 0
+  creatureButtonPrefab: {fileID: 1813511138497318, guid: 12b0f3ab3579a154691aaa31dff00504,
+    type: 2}
+  tableCreaturePrefab: {fileID: 1377983989744306, guid: b9f4d32aec36ff2409174a1ab3a423fe,
+    type: 2}
+  clickVisualPrefab: {fileID: 1638319015592106, guid: c51606feb3cf9294bbc2856e572bb9d6,
+    type: 2}
+  maxHeight: 6
+  maxWidth: 6
+  highlightedTileMaterial: {fileID: 2100000, guid: b3fb562dd6ce0b24294f658006873de6,
+    type: 2}
+  normalTileMaterial: {fileID: 2100000, guid: 82eca6a8dbe73284c9eeac0a34ccab27, type: 2}

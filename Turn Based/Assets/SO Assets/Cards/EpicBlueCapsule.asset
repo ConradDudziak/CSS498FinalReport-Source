@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a4a62129b69764eb458ec12fcbb40c, type: 3}
+  m_Name: EpicBlueCapsule
+  m_EditorClassIdentifier: 
+  characterAsset: {fileID: 0}
+  description: A much better Blue!
+  creaturePrefab: {fileID: 5466189648167531746, guid: 85a1941fe92fe5641b99aca7638faf90,
+    type: 3}
+  creatureSprite: {fileID: 21300000, guid: 1e2a974bc3e0d364889ac1f199e09639, type: 3}
+  manaCost: 2
+  bloodCost: 0
+  earthCost: 0
+  maxHealth: 8
+  attack: 4
+  attacksForOneTurn: 1
+  creatureScriptName: 
+  specialCreatureAmount: 0
+  spellScriptName: 
+  specialSpellAmount: 0
+  Targets: 0
